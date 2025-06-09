@@ -7,7 +7,7 @@ from ultralytics import YOLO
 import threading
 from collections import deque
 
-
+print("Mini project")
 # Function to play text-to-speech in a separate thread
 def speak_in_thread(text, engine):
     print(text)
